@@ -74,7 +74,7 @@ This project is part of the NYU Advance topic: Deep Learning course. Special tha
   - **RMSE**: 16.541
   - **MAPE**: 11.314%
   - **Explained Variance**: 88.9%
-  - 
+  
 ---
 
 ### **3. LSTM (Deep Learning Model)**
@@ -94,7 +94,7 @@ This project is part of the NYU Advance topic: Deep Learning course. Special tha
 ## **Key Findings**
 
 - **ARIMAX + ANN**: ARIMAX performs well on the dataset, but ANN struggles to improve upon ARIMAX due to lack of clear seasonal trends in the dataset
-- **LSTM** LSTM performs well in both long term and short term predictions and is the best model among all. 
+- **LSTM**: LSTM performs well in both long term and short term predictions and is the best model among all. 
 
 ---
 
