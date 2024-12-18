@@ -19,7 +19,15 @@ Stock price prediction is complex due to the chaotic and nonlinear nature of fin
 - Explore hybrid approaches that combine **ARIMAX** and **ANN** for residual learning.
 
 ---
+## **Contribution**
+- Marie Qi: ARIMAX and ANN model
+- Han Gao: LSTM, ARIMAX + ANN, and data preprocessing
+- Jiaming Liu: ARIMA, ARIMAX Validation, ARIAM + ANN
+---
+## **Acknowledgements**
+This project is part of the NYU Advance topic: Deep Learning course. Special thanks to the course TA and professor for their guidance.
 
+---
 ## **Data Collection and Preprocessing**
 
 - **Dataset**: IBM daily closing stock prices (1999–2024).
@@ -71,22 +79,22 @@ Stock price prediction is complex due to the chaotic and nonlinear nature of fin
 
 ### **3. LSTM (Deep Learning Model)**
 
-- **Purpose**:
+- **Purpose**: Use LSTM to compare with above models
 - **Method**:
   - Used sliding window sequences with a **look-back window of 30 days**.
   - LSTM architecture: **3 layers** with 256, 128, and 64 units.
   - Applied **Exponential Moving Averages (EMA)** for data augmentation.
 - **Results**:
-  - **RMSE**:
-  - **MAPE**:
-  - **Explained Variance**:
+  - **RMSE**: 6.686
+  - **MAPE**: 4.052%
+  - **Explained Variance**:94.595%
 
 ---
 
 ## **Key Findings**
 
 - **ARIMAX + ANN**: ARIMAX performs well on the dataset, but ANN struggles to improve upon ARIMAX due to lack of clear seasonal trends in the dataset
-- **LSTM** 
+- **LSTM** LSTM performs well in both long term and short term predictions and is the best model among all. 
 
 ---
 
